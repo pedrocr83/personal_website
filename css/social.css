@@ -1,0 +1,91 @@
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.wrapper-social-icons {
+    display:block;
+    text-align: center;
+
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin: 0 4vw;
+}
+.social-icons li {
+    display: inline;
+}
+
+.fa-facebook-f {
+    font-size: 5vw;
+    padding:12vh 3vw;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-facebook-f:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    font-size: 5vw;
+    padding:12vh 2vw;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    font-size: 5vw;
+    padding:12vh 3vw;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-instagram:hover {
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  }
+.fa-github {
+    font-size: 5vw;
+    padding:12vh 3vw;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-github:hover {
+    background-color: black;
+}
+.fa-linkedin-in {
+    font-size: 5vw;
+    padding:12vh 3vw;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-linkedin-in:hover {
+    background-color: #0073a4;
+}

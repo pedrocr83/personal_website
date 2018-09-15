@@ -1,0 +1,71 @@
+#console{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60vh;
+  width: 70vw;
+  border: 0.4vw solid grey;
+  background: #000;
+  z-index: 10;
+  color:#8bdafe;
+  overflow-y: auto;
+}
+#console .command{
+  background-color:#000;
+  color:#5dcbfd;
+  border:0;
+  outline:none
+  }
+
+  #console .answer h1{
+    text-align:center;
+    background-color:#ccc;
+    width:100%;
+    color:#5dcbfd;
+  }
+    #console .answer h2,#console .answer h3{
+      text-transform:uppercase;
+      margin-bottom:0;
+      padding-bottom:0
+  }
+
+  #console .answer h3{
+    text-transform:none;
+    margin-left:30px
+  }
+
+  #console .answer p{
+    margin:10px auto auto 60px;
+    color:#5dcbfd;
+  }
+  #console .answer a,#console .answer a:visited{
+    text-decoration:none;
+    color:#5dcbfd;
+  }
+  #console .answer a:hover{
+    text-decoration:underline
+  }
+  #console li{
+    list-style-type:'-';
+    color:#5dcbfd;
+    margin-left:50px;
+  }
+
+  #console table{
+    border-collapse:collapse;
+    border:0;
+    margin:10px 0 10px 30px;
+    color:#5dcbfd;
+  }
+
+  #console table th{
+    text-align:left;
+    color:#5dcbfd;
+    border-bottom:1px solid #fff
+  }
+
+  #console table td,#console table th{
+    padding:.5em
+  }
