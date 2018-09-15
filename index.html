@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/datalegreya" type="text/css"/>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/console.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>Pedro's World</title>
+  </head>
+  <body>
+    <div id="page">
+      <div class="sidenav">
+        <div class="topmenu">
+          <a href="index.html"><img src="images/logo.png"></i></a>
+          <a id="code"><img class="coding" src="icons/terminal.svg"/></a>
+        </div>
+        <nav class="mainmenu">
+          <ul>
+          <li class="active"><a title="HOME" href="index.html"><img class="menuimg" src="icons/house.svg"/></a></li>
+          <li><a title="ABOUT" href="about.html"><img class="menuimg" src="icons/dna.svg" /></a></li>
+          <li><a title="SKILLS" href="skills.html"><img class="menuimg" src="icons/brain.svg" /></a></li>
+          <li><a title="RESEARCH" href="research.html"><img class="menuimg" src="icons/research.svg" /></a></li>
+          <li><a id="contacts" title="CONTACT"><img class="onpage" src="icons/mail.svg" /></a></li>
+          <li><a id="socials" title="SOCIAL"><img class="onpage" src="icons/share.svg" /></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="contact">
+          <iframe id="contact" src="contact.html"></iframe>
+        </div>
+        <div class="contact">
+          <div id="email">
+            <span><span>...or to : </span><a href="mailto:pedrocasalribeiro@gmail.com" target="_top">pedrocasalribeiro@gmail.com</a></span>
+          </div>
+        </div>
+        <div class="social">
+          <iframe id="social" src="social.html"></iframe>
+        </div>
+        <div id="console">
+          <header>>>>Navigate the site or use some functions, type "help" for more info.</header>
+          <div id="terminal_lines"></div>
+        </div>
+        <div id="intro">
+          <div class="intro">Welcome to my interactive professional life</div>
+          <div class="intro">Find my work or qualifications on the left...</div>
+          <div class="intro">..or my interactive blog on the right</div>
+          <div class="intro">Please feel free to send me an e-mail anytime...</div>
+          <div class="intro">...thank you for visiting! - Pedro</div>
+          <div class="intro"></div>
+        </div>
+
+        <a id='button'><img class="icwall" src="icons/back.svg"/></a>
+        <div id='wall'>
+          <div class="blog">
+            <iframe id="pages" src="blog.html"></iframe>
+          </div>
+          <div class="sidenav2">
+            <div class="topmenu">
+              <a href="index.html"><img src="images/blog.png"></i></a>
+              <span class="span"><kbd>ESC</kbd><br>to go back</span>
+            </div>
+            <nav class="mainmenu">
+              <ul>
+              <li><a id="bhome" title="MAIN"><img class="menuimg" src="icons/power.svg"/></a></li>
+              <li><a id="stats" title="STATS"><img class="menuimg" src="icons/analytics.svg" /></a></li>
+              <li><a id="metagen" title="METAGENOMICS"><img class="menuimg" src="icons/bacteria.svg" /></a></li>
+              <li><a id="aiml" title="AI&ML"><img class="menuimg" src="icons/coding.svg" /></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+    <script src="js/programs.js"></script>
+    <script src="js/terminal.js"></script>
+    <script src="js/jquery.slidereveal.min.js"></script>
+    <script src="js/textition.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
